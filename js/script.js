@@ -74,7 +74,7 @@ $( document ).ready(function() {
         var th = $(this);
         $.ajax({
             type: "POST",
-            url: "./mail.php", //Change
+            url: "../mail.php", //Change
             data: th.serialize()
         }).done(function() {
             alert("Ваша заявка принята. Мы вам позвоним");
